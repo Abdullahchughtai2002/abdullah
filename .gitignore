@@ -1,0 +1,52 @@
+# Python cache and compiled files
+_pycache_/
+*.pyc
+*.pyo
+*.pyd
+*.db
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Environment variables and API keys
+.env
+*.env
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Model and large files
+*.h5
+*.ckpt
+*.pth
+*.pt
+*.tflite
+*.onnx
+*.pb
+*.joblib
+*.pkl
+*.npz
+
+# Hugging Face and other cache
+.cache/
+transformers_cache/
+torch_cache/
+tf_cache/
+huggingface/
+
+# Streamlit
+.streamlit/
+
+# Logs
+*.log
+logs/
+
+# VS Code and IDE settings
+.vscode/
+.idea/
