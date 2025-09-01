@@ -27,7 +27,7 @@ st.markdown("""
         text-align: center;
         font-size: 42px;
         font-weight: bold;
-        color: Purple; /* Dark Bold Color */
+        color: Yellow; /* Dark Bold Color */
         margin-bottom: 20px;
     }
     .stTextArea textarea {
@@ -59,11 +59,11 @@ st.markdown("""
 llm = ChatGroq(model="llama-3.1-8b-instant", api_key=groq_api_key)
 
 # Sidebar Settings
-st.sidebar.markdown("## Barrah's Portfolio")
+st.sidebar.markdown("## Abdullah's Portfolio")
 creativity = st.sidebar.slider("Creativity", 0, 100, 50)
 personalization = st.sidebar.slider("Personalization", 0, 100, 70)
 st.sidebar.markdown("---")
-st.sidebar.caption("Developed by *Barrah Abbas*")
+st.sidebar.caption("Developed by *Abdullah Chughtai*")
 
 # Main Title
 st.markdown('<div class="title">📧 AI Cold Email Generator</div>', unsafe_allow_html=True)
